@@ -1,0 +1,35 @@
+.article-list-box {
+    padding: 0 30rpx 30rpx;
+}
+
+.list-item {
+    margin-top: 20rpx;
+    padding: 20rpx;
+    border:1px solid #F7F4F4;
+    -webkit-box-shadow:0px 0px 18px 0px rgba(192,181,181,0.1);
+    -moz-box-shadow:0px 0px 18px 0px rgba(192,181,181,0.1);
+    -o-box-shadow:0px 0px 18px 0px rgba(192,181,181,0.1);
+    box-shadow:0px 0px 18px 0px rgba(192,181,181,0.1);
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -o-border-radius:10px;
+    border-radius:10px;
+}
+
+.list-item .count-icon {
+    display: block;
+    width: 32rpx;
+    height: 32rpx;
+    margin-right: 5rpx;
+}
+
+.list-item .publish-img {
+    display: block;
+    width: 214rpx;
+    height: 204rpx;
+    margin-left: 20rpx;
+    -webkit-border-radius: 10rpx;
+    -moz-border-radius: 10rpx;
+    -o-border-radius: 10rpx;
+    border-radius: 10rpx;
+}

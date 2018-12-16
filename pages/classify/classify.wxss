@@ -1,0 +1,69 @@
+
+Page {
+    background: #f9f9f9;
+}
+.classify-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 188rpx;
+    background: #F5F5F5;
+}
+
+.classify-item {
+    position: relative;
+    padding-left: 40rpx;
+    font-size: 26rpx;
+    color: #666;
+    line-height: 88rpx;
+    border-bottom: 1px solid #e9e9e9;
+}
+.classify-item.on {
+    background: #fff;
+    border-bottom: 1px solid #fff;
+}
+.classify-item.on::after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 26rpx;
+    left: 26rpx;
+    width: 6rpx;
+    height: 36rpx;
+    background: #3BB18F;
+}
+
+.list-box {
+    margin-left: 206rpx;
+}
+.list-box .list-item {
+    display: inline-block;
+    width: 230rpx;
+    margin-left: 40rpx;
+    margin-top: 30rpx;
+}
+.list-box .list-item:nth-child(2n-1) {
+    margin-left: 0;
+}
+.list-item image {
+    display: block;
+    width: 100%;
+    height: 164rpx;
+    -webkit-border-radius: 10rpx 10rpx 0 0;
+    -moz-border-radius: 10rpx 10rpx 0 0;
+    -o-border-radius: 10rpx 10rpx 0 0;
+    border-radius: 10rpx 10rpx 0 0;
+}
+.list-item > view {
+    height: 62rpx;
+    line-height: 62rpx;
+    text-align: center;
+    font-size: 32rpx;
+    color: #333;
+    border: 1px solid #E4F7F1;
+    -webkit-border-radius: 0 0 10rpx 10rpx;
+    -moz-border-radius: 0 0 10rpx 10rpx;
+    -o-border-radius: 0 0 10rpx 10rpx;
+    border-radius: 0 0 10rpx 10rpx;
+}

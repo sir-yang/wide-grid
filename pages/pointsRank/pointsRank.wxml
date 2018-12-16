@@ -1,0 +1,93 @@
+
+<view>
+    <image class='points-bg-image' src='/images/points_by.png'></image>
+    <view class='points-top-box'>
+        <view class='points-tab-box flex_start'>
+            <view class='tab-item on'>日榜单</view>
+            <view class='tab-item'>周榜单</view>
+            <view class='tab-item'>月榜</view>
+            <view class='tab-item'>总榜</view>
+        </view>
+        <!-- 我的排名 -->
+        <view class='my-rank-box flex_between flex_items'>
+            <view class='flex1'>
+                <view class='f32 cf'>周生生</view>
+                <view class='f24 cf mt15'>第4名 58积分 10分钟</view>
+            </view>
+            <button class='points-share' open-type='share' hover-class='none'>分享</button>
+        </view>
+    </view>
+    <view class='points-rank-list'>
+        <view class='points-rank-item flex_start flex_items'>
+            <view class='points-rank-icon'>
+                <image class='rank-icon' src='/images/rank_1.png'></image>
+                <view class='text'>1</view>
+            </view>
+            <view class='flex1 flex_start flex_items'>
+                <image class='user-head flex_shrink' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+                <view>
+                    <view class='f32 cf mb20'>张三</view>
+                    <view class='flex_start flex_items'>
+                        <image class='crown-icon' src='/images/crown_icon.png'></image>
+                        <text class='point-num'>150</text>
+                    </view>
+                </view>
+                <view class='use-time'>1小时50分钟</view>
+            </view>
+            <image class='right-icon' src='/images/right_icon.png'></image>
+        </view>
+        <view class='points-rank-item flex_start flex_items'>
+            <view class='points-rank-icon'>
+                <image class='rank-icon' src='/images/rank_2.png'></image>
+                <view class='text'>2</view>
+            </view>
+            <view class='flex1 flex_start flex_items'>
+                <image class='user-head flex_shrink' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+                <view>
+                    <view class='f32 cf mb20'>张三张三</view>
+                    <view class='flex_start flex_items'>
+                        <image class='crown-icon' src='/images/crown_icon.png'></image>
+                        <text class='point-num'>150</text>
+                    </view>
+                </view>
+                <view class='use-time'>1小时50分钟</view>
+            </view>
+            <image class='right-icon' src='/images/right_icon.png'></image>
+        </view>
+        <view class='points-rank-item flex_start flex_items'>
+            <view class='points-rank-icon'>
+                <image class='rank-icon' src='/images/rank_3.png'></image>
+                <view class='text'>3</view>
+            </view>
+            <view class='flex1 flex_start flex_items'>
+                <image class='user-head flex_shrink' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+                <view>
+                    <view class='f32 cf mb20'>张三</view>
+                    <view class='flex_start flex_items'>
+                        <image class='crown-icon' src='/images/crown_icon.png'></image>
+                        <text class='point-num'>150</text>
+                    </view>
+                </view>
+                <view class='use-time'>1小时50分钟</view>
+            </view>
+            <image class='right-icon' src='/images/right_icon.png'></image>
+        </view>
+        <view class='points-rank-item flex_start flex_items'>
+            <view class='points-rank-lf'>
+                <view class='text color'>4</view>
+            </view>
+            <view class='flex1 flex_start flex_items'>
+                <image class='user-head flex_shrink' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+                <view>
+                    <view class='f32 cf mb20 color'>张三</view>
+                    <view class='flex_start flex_items'>
+                        <image class='crown-icon' src='/images/crown_icon.png'></image>
+                        <text class='point-num'>150</text>
+                    </view>
+                </view>
+                <view class='use-time'>1小时50分钟</view>
+            </view>
+            <image class='right-icon' src='/images/right_icon.png'></image>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,103 @@
+<import src="../../wxParse/wxParse.wxml" />
+
+<view>
+    <view class='column-info-box flex_start'>
+        <image class='flex_shrink' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+        <view class='flex1'>
+            <view class='f32 c0'>饮食</view>
+            <view class='desc'>饮食的一种文化，而中华美食则誉满天下。</view>
+            <view class='flex_start flex_items'>
+                <view class='price'>¥ 9.9</view>
+                <view class='f20 c9'>
+                    <text>已更新6期</text>
+                    <text>2.7W订阅</text>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class='tab-box flex_start'>
+        <view class='flex1 {{current == 0 ? "on" : ""}}' catchtap='columnEvent' data-types='tab' data-index='0'>初级</view>
+        <view class='flex1 {{current == 1 ? "on" : ""}}' catchtap='columnEvent' data-types='tab' data-index='1'>进阶</view>
+        <view class='flex1 {{current == 2 ? "on" : ""}}' catchtap='columnEvent' data-types='tab' data-index='2'>高级</view>
+    </view>
+
+    <view class='row-list-box hide'>
+        <view class='list-item flex_start'>
+            <view class='flex1'>
+                <view class='f32 c3 clamp2'>粮农组织呼吁农业活动中慎用抗生素...</view>
+                <view class='f24 c9 mt10 clamp2'>“世界提高抗生素认识周”刚刚过去。联合国粮农组织近日表示，农民可以...</view>
+                <view class='flex_start mt10'>
+                    <view class='flex_start flex_items'>
+                        <image class='count-icon' src='/images/praise_icon.png'></image>
+                        <text class='f24 c9'>86</text>
+                    </view>
+                    <view class='flex_start flex_items ml30'>
+                        <image class='count-icon' src='/images/common_icon.png'></image>
+                        <text class='f24 c9'>6</text>
+                    </view>
+                </view>
+            </view>
+            <image class='publish-img flex_shrink' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+        </view>
+
+        <view class='list-item flex_start'>
+            <view class='flex1'>
+                <view class='f32 c3 clamp2'>粮农组织呼吁农业活动中慎用抗生素...</view>
+                <view class='f24 c9 mt10 clamp2'>“世界提高抗生素认识周”刚刚过去。联合国粮农组织近日表示，农民可以...</view>
+                <view class='flex_start mt10'>
+                    <view class='flex_start flex_items'>
+                        <image class='count-icon' src='/images/praise_icon.png'></image>
+                        <text class='f24 c9'>86</text>
+                    </view>
+                    <view class='flex_start flex_items ml30'>
+                        <image class='count-icon' src='/images/common_icon.png'></image>
+                        <text class='f24 c9'>6</text>
+                    </view>
+                </view>
+            </view>
+            <image class='publish-img flex_shrink' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+        </view>
+    </view>
+
+    <view class='not-unlocked'>
+        <view class='f32 c9'>进阶文档您未解锁，积分达到1000即可解锁全部进阶文章</view>
+        <view class='unlocked-btn' catchtap='columnEvent' data-types='unlock'>解锁中级文文章</view>
+        <view class='f24 c9 txt_center'>您还差200积分即可解锁</view>
+    </view>
+
+    <view class='column-footer-spacing'></view>
+    <view class='column-footer-box flex_start flex_items'>
+        <view class='subscription-btn not' catchtap='columnEvent' data-types='subscriptio'>订阅</view>
+        <view class='share-box'>
+            <button class='share-button' open-type='share' hover-class='none'></button>
+            <image class='share-icon' src='/images/share_icon.png'></image>
+        </view>
+    </view>
+</view>
+
+<!-- 付费弹框 -->
+<view class='tankuang {{column_tk}}'></view>
+<view class='column-fee-modal {{column_tk}}'>
+    <view class='modal-tit'>本专栏为付费专栏</view>
+    <image catchtap='columnEvent' data-types='close' data-index='1' class='modal-close' src='/images/close_icon.png'></image>
+    <view class='flex_between flex_items fee-box'>
+        <view>须支付金融：</view>
+        <view>¥9.9</view>
+    </view>
+    <view class='next-btn'>下一步</view>
+</view>
+
+<!-- 解锁弹框 -->
+<view class='tankuang {{unlock_tk}}'></view>
+<view class='unlock-modal-content {{unlock_tk}}'>
+    <image catchtap='columnEvent' data-types='close' data-index='2' class='modal-close' src='/images/close_icon.png'></image>
+    <view class='unlock-row-box'>
+        <view class='article-title'>寒冷天，没有什么比在家吃饭更温暖，4菜1汤，家常菜吃得很舒坦......</view>
+        <view class='mtb30'>
+            <view class='f24 c6'>自定义内容</view>
+            <!-- <template is="wxParse" data="{{wxParseData:article.nodes}}" /> -->
+        </view>
+    </view>
+
+    <view class='sure-unlock-btn'>确定</view>
+</view>

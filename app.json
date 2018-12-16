@@ -1,0 +1,50 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/search/search",
+        "pages/articleList/articleList",
+        "pages/pointsRank/pointsRank",
+        "pages/articleDetail/articleDetail",
+        "pages/exerciseDetail/exerciseDetail",
+        "pages/classify/classify",
+        "pages/columnDetail/columnDetail"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "广格知识",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#f9f9f9"
+    },
+    "tabBar": {
+        "color": "#666666",
+        "selectedColor": "#3bb18f",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "/images/tabbar/tabbar_home.png",
+                "selectedIconPath": "/images/tabbar/tabbar_home_selected.png"
+            },
+            {
+                "pagePath": "pages/classify/classify",
+                "text": "分类",
+                "iconPath": "/images/tabbar/tabbar_class.png",
+                "selectedIconPath": "/images/tabbar/tabbar_class_selected.png"
+            },
+            {
+                "pagePath": "pages/index/index",
+                "text": "练习",
+                "iconPath": "/images/tabbar/tabbar_exercise.png",
+                "selectedIconPath": "/images/tabbar/tabbar_exercise_selected.png"
+            },
+            {
+                "pagePath": "pages/index/index",
+                "text": "我的",
+                "iconPath": "/images/tabbar/tabbar_me.png",
+                "selectedIconPath": "/images/tabbar/tabbar_me_selected.png"
+            }
+        ]
+    }
+}

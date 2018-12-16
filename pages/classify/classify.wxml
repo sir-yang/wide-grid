@@ -1,0 +1,27 @@
+
+<view class='classify-left'>
+    <scroll-view scroll-y="true">
+        <view class='classify-item on'>生命健康</view>
+        <view class='classify-item'>冥想</view>
+        <view class='classify-item'>地球</view>
+    </scroll-view>
+</view>
+
+<view class='list-box'>
+    <view class='list-item'>
+        <image src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+        <view>饮食</view>
+    </view>
+    <view class='list-item'>
+        <image src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+        <view>人体知识</view>
+    </view>
+    <view class='list-item'>
+        <image src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+        <view>远古文明</view>
+    </view>
+    <view class='list-item'>
+        <image src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+        <view>动物</view>
+    </view>
+</view>

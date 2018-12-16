@@ -1,0 +1,24 @@
+
+<view>
+    <view class='search-box flex_start flex_items'>
+        <view class='search-lf flex_start flex_items'>
+            <image src='/images/search_input.png'></image>
+            <input class='f24 c3' confirm-type="search" value='{{searchVal}}' bindconfirm="searchEvent" data-types='search' placeholder='请输入关键词' />
+        </view>
+        <view class='cancel-search' bindtap='searchEvent' data-types='cancel'>取消</view>
+    </view>
+
+    <view class='plr20'>
+        <view class='history-tit'>热搜词</view>
+        <view class='history-list flex_warp'>
+            <view class='history-item' catchtap='searchEvent' data-types='click' data-val='食物'>食物</view>
+            <view class='history-item' catchtap='searchEvent' data-types='click' data-val='在线教育'>在线教育</view>
+            <view class='history-item' catchtap='searchEvent' data-types='click' data-val='AI'>AI</view>
+            <view class='history-item' catchtap='searchEvent' data-types='click' data-val='迷路熊'>迷路熊</view>
+            <view class='history-item' catchtap='searchEvent' data-types='click' data-val='血压'>血压</view>
+            <view class='history-item' catchtap='searchEvent' data-types='click' data-val='用户研究'>用户研究</view>
+        </view>
+    
+    </view>
+
+</view>

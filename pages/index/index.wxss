@@ -1,0 +1,295 @@
+Page {
+    background: #f9f9f9;
+}
+
+.banner-box {
+    width: 100%;
+}
+
+.banner-box > swiper {
+    width: 100%;
+    height: 380rpx;
+}
+
+.home-banner-img {
+    width: 100%;
+    height: 380rpx;
+}
+
+.wx-swiper-dots {
+    position: relative;
+    left: unset !important;
+    right: 20rpx;
+}
+
+.wx-swiper-dots.wx-swiper-dots-horizontal {
+    margin-bottom: 35rpx;
+}
+
+/* 搜索框 */
+.home-input-box {
+    position: absolute;
+    left: 30rpx;
+    right: 30rpx;
+    top: 338rpx;
+    height: 80rpx;
+    padding: 0 30rpx;
+    background: #fff;
+    -webkit-border-radius: 18rpx;
+    -moz-border-radius: 18rpx;
+    -o-border-radius: 18rpx;
+    border-radius: 18rpx;
+    -webkit-box-shadow:0px 0px 18rpx 0px rgba(59,177,143,0.15);
+    -moz-box-shadow:0px 0px 18rpx 0px rgba(59,177,143,0.15);
+    -o-box-shadow:0px 0px 18rpx 0px rgba(59,177,143,0.15);
+    box-shadow:0px 0px 18rpx 0px rgba(59,177,143,0.15);
+}
+.home-input-box > image {
+    display: block;
+    width: 24rpx;
+    height: 24rpx;
+    margin-right: 12rpx;
+}
+.home-input-box > input {
+    flex: 1;
+    font-size: 24rpx;
+    color: #333;
+}
+.input-spacing {
+    width: 100%;
+    height: 58rpx;
+}
+
+
+/* 排行榜 */
+.leaderboard-box {
+    background: #fff;
+    padding: 0 30rpx 50rpx;
+}
+.home-tit-box {
+    height: 140rpx;
+    line-height: 140rpx;
+}
+
+.home-tit-box .tit-lf {
+    font-weight: bold;
+    font-size: 36rpx;
+    color: #333;
+}
+.home-tit-box .tit-rt {
+    font-weight: bold;
+    font-size: 24rpx;
+    color: #3BB18F;
+}
+
+.rank-head-box > view.center-box {
+    margin: 0 50rpx;
+}
+
+.img-box > image.head {
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 75rpx;
+    height: 75rpx;
+    margin: auto;
+    border: 1px solid #5aaeef;
+    -wenkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-box-shadow:0px 0px 22rpx 5px rgba(59,177,143,0.18);
+    -moz-box-shadow:0px 0px 22rpx 5px rgba(59,177,143,0.18);
+    -o-box-shadow:0px 0px 22rpx 5px rgba(59,177,143,0.18);
+    box-shadow:0px 0px 22rpx 5px rgba(59,177,143,0.18);
+}
+.img-box .label {
+    position: absolute;
+    bottom: -15rpx;
+    left: 50%;
+    z-index: 5;
+    width: 29rpx;
+    height: 29rpx;
+    margin-left: -15rpx;
+    background: #5aaeef;
+    text-align: center;
+    line-height: 29rpx;
+    font-size: 18rpx;
+    color: #fff;
+    -wenkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+}
+.center-box {
+    width: 188rpx;
+    padding-top: 40rpx;
+}
+.center-box .rank-by {
+    position: absolute;
+    top: 0;
+    width: 188rpx;
+    height: 249rpx;
+}
+.center-box .img-box .rank-icon {
+    position: absolute;
+    top: -15rpx;
+    left: 50%;
+    width: 38rpx;
+    height: 29rpx;
+    margin-left: -19rpx;
+    z-index: 1;
+}
+.center-box .img-box > image.head {
+    width: 106rpx;
+    height: 106rpx;
+    border: 1px solid #ffc000;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+.center-box .img-box .label {
+    background: #ffc000;
+}
+.rt-box .img-box > image.head {
+    border: 1px solid #cecece;
+    -webkit-box-shadow:0px 0px 22rpx 5px rgba(182,182,182,0.18);
+    -moz-box-shadow:0px 0px 22rpx 5px rgba(182,182,182,0.18);
+    -o-box-shadow:0px 0px 22rpx 5px rgba(182,182,182,0.18);
+    box-shadow:0px 0px 22rpx 5px rgba(182,182,182,0.18);
+}
+.rt-box .img-box .label {
+    background: #cecece;
+}
+.rank-head-box .name {
+    margin-top: 25rpx;
+    margin-bottom: 10rpx;
+    font-size: 20rpx;
+    color: #333;
+    text-align: center;
+}
+.rank-head-box .val {
+    font-size: 15rpx;
+    color: #999;
+    text-align: center;
+}
+
+.rank_text {
+    margin: 0 80rpx;
+    font-size: 24rpx;
+    color: #666;
+    line-height: 40rpx;
+    text-align: center;
+}
+
+/* 文章推荐 */
+.recommend-item {
+    width: 214rpx;
+    padding-top: 20rpx;
+    padding-bottom: 50rpx;
+}
+.recommend-item > image {
+    display: block;
+    width: 100%;
+    height: 204rpx;
+    -webkit-border-radius: 10rpx;
+    -moz-border-radius: 10rpx;
+    -o-border-radius: 10rpx;
+    border-radius: 10rpx;
+}
+
+/* 专栏推荐 */
+.column-item_box {
+    padding-top: 20rpx;
+    padding-bottom: 50rpx;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.column-item_box .column-item {
+    display: inline-block;
+    width: 256rpx;
+    margin-left: 30rpx;
+}
+.column-item_box .column-item:last-child {
+    margin-right: 30rpx;
+} 
+.column-item > image {
+    display: block;
+    width: 100%;
+    height: 164rpx;
+    -webkit-border-radius: 10rpx 10rpx 0 0;
+    -moz-border-radius: 10rpx 10rpx 0 0;
+    -o-border-radius: 10rpx 10rpx 0 0;
+    border-radius: 10rpx 10rpx 0 0;
+}
+
+.column-item .column-item-text {
+    width: 254rpx;
+    height: 63rpx;
+    font-size: 32rpx;
+    color: #333;
+    text-align: center;
+    line-height: 63rpx;
+    border: 1rpx solid #E4F7F1;
+    -webkit-border-radius: 0 0 10rpx 10rpx;
+    -moz-border-radius: 0 0 10rpx 10rpx;
+    -o-border-radius: 0 0 10rpx 10rpx;
+    border-radius: 0 0 10rpx 10rpx;
+}
+
+/* 冥想专区 */
+.meditation-list .list-item {
+    padding: 20rpx 30rpx 25rpx;
+    border-bottom: 1px solid #e9e9e9;
+}
+.meditation-list .list-item .mx-icon {
+    display: block;
+    width: 72rpx;
+    height: 72rpx;
+    margin-right: 20rpx;
+}
+.meditation-list .right-icon {
+    display: block;
+    width: 14rpx;
+    height: 26rpx;
+    margin-left: 30rpx;
+}
+
+
+/* 最新发布 */
+.publish-list {
+    padding-bottom: 50rpx;
+}
+.publish-list .list-item {
+    margin-top: 20rpx;
+    padding: 20rpx;
+    border:1px solid #F7F4F4;
+    -webkit-box-shadow:0px 0px 18px 0px rgba(192,181,181,0.1);
+    -moz-box-shadow:0px 0px 18px 0px rgba(192,181,181,0.1);
+    -o-box-shadow:0px 0px 18px 0px rgba(192,181,181,0.1);
+    box-shadow:0px 0px 18px 0px rgba(192,181,181,0.1);
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -o-border-radius:10px;
+    border-radius:10px;
+}
+
+.list-item .count-icon {
+    display: block;
+    width: 32rpx;
+    height: 32rpx;
+    margin-right: 5rpx;
+}
+
+.publish-list .list-item .publish-img {
+    display: block;
+    width: 214rpx;
+    height: 204rpx;
+    margin-left: 20rpx;
+    -webkit-border-radius: 10rpx;
+    -moz-border-radius: 10rpx;
+    -o-border-radius: 10rpx;
+    border-radius: 10rpx;
+}

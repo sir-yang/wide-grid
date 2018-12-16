@@ -1,0 +1,40 @@
+<import src="../../wxParse/wxParse.wxml" />
+
+<view>
+    <view class='audio-video-box'>
+        <image class='cover-img' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+        <!-- 音频 -->
+        <view class='audio-modal-box'>
+            <view class='text'>冬天的衣服被子放久了有臭味？这些方法比什么都管用</view>
+            <view class='flex_start flex_items mt10'>
+                <view class='time ml30'>00:06</view>
+                <progress class='flex1' percent="20" stroke-width="2" active="true" backgroundColor="#C3C3C3" activeColor="#737373"></progress>
+                <view class='time mr30'>03:19</view>
+            </view>
+        </view>
+    </view>
+    <!-- 视频 -->
+    <view class='flex_start tit-down-box hide'>
+        <view class='f32 c3'>冬天的衣服被子放久了有臭味？这些方法比什么都管用</view>
+        <view class='down-load-box'>
+            <image class='down-load flex_shrink' src='/images/downLoad_icon.png'></image>
+        </view>
+    </view>
+    <!-- 音频 -->
+    <view class='audio-icon-box'>
+        <image src='/images/pay_audio_icon.png'></image>
+        <!-- <image src='/images/pause_audio_icon.png'></image> -->
+    </view>
+
+    <!-- 文本内容 -->
+    <view class='wxParse-box'>
+        <view class='f28 c3'>气温下降，冬天也在不知不觉中就要到来了。储存许久的厚衣服、被子也准备派上用场了。但从柜子中将衣服和被子拿出来时，却泛着一股异味，青少年伙伴们上学穿着有味道的衣服不舒服，晚上盖着有味道的被子就更不舒服了，那要怎样才能有效的去味除菌呢？</view>
+        <!-- <template is="wxParse" data="{{wxParseData:article.nodes}}" /> -->
+    </view>
+
+    <view class='footer-spacing'></view>
+    <view class='footer-box'>
+        <view class='receive-btn not'>待完成</view>
+        <!-- <view class='receive-btn'>已完成领取积分(10分)</view> -->
+    </view>
+</view>

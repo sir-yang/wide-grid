@@ -1,0 +1,123 @@
+<import src="../../wxParse/wxParse.wxml" />
+<view>
+    <view class='plr30 bgfff pb30 bbe9s'>
+        <view class='article_title clamp2'>升频最高振动力的食物：通过饮食提升振动频率甘冽的山泉水直接喝，树上的野果随箱...</view>
+        <view class='flex_between flex_items f24 c9 mb10'>
+            <view class='flex_start'>
+                <view>作者：华人团队</view>
+                <view class='ml30'>2018年12月07日</view>
+            </view>
+            <view>96阅读</view>
+        </view>
+
+        <view class='mtb30'>
+            <view class='f28 c3'>文章详情</view>
+            <!-- <template is="wxParse" data="{{wxParseData:article.nodes}}" /> -->
+        </view>
+
+        <!-- 操作 -->
+        <view class='flex_start article-btn-groud mt20'>
+            <view class='flex1 f28 cf operate-btn' bindtap='detailEvent' data-types='reward'>打赏作者</view>
+            <view class='flex1 operate-btn'>
+                <view class='f24 cf'>本文练习</view>
+                <view class='f20 cf'>(10分)</view>
+            </view>
+            <view class='flex1 operate-btn'>
+                <view class='f24 cf'>领取阅读积分</view>
+                <view class='f20 cf'>(5分)</view>
+            </view>
+        </view>
+
+        <!-- 音视频打赏按钮 -->
+        <view class='flex_start two-btn-obx mt20 hide'>
+            <view class='flex1 f28 cf operate-btn'>打赏作者</view>
+            <view class='flex1 operate-btn'>
+                <view class='f24 cf'>领取阅读积分</view>
+                <view class='f22 cf'>(5分)</view>
+            </view>
+        </view>
+
+        <view class='f28 c3 mt30'>下一篇推荐</view>
+    </view>
+    <!-- 推荐 -->
+    <view class='recommend-box'>
+        <view class='item-box flex_start'>
+            <view class='flex1'>
+                <view class='f32 c3 clamp2'>【觉知】秋天葡萄功效堪比冬虫夏草，很多人却不知道...</view>
+                <view class='f24 c9 mt10'>华人区事件联合行动团队</view>
+            </view>
+            <image class='flex_shrink' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+        </view>
+        <view class='item-box flex_start'>
+            <view class='flex1'>
+                <view class='f32 c3 clamp2'>【觉知】秋天葡萄功效堪比冬虫夏草，很多人却不知道...</view>
+                <view class='f24 c9 mt10'>华人区事件联合行动团队</view>
+            </view>
+            <image class='flex_shrink' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+        </view>
+        <view class='item-box flex_start'>
+            <view class='flex1'>
+                <view class='f32 c3 clamp2'>【觉知】秋天葡萄功效堪比冬虫夏草，很多人却不知道...</view>
+                <view class='f24 c9 mt10'>华人区事件联合行动团队</view>
+            </view>
+            <image class='flex_shrink' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+        </view>
+    </view>
+
+    <!-- 评论 -->
+    <view class='commen-box'>
+        <view class='f32 c3 mb30'>评论</view>
+        <view class='common-item flex_start'>
+            <image class='flex_shrink' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+            <view class='flex1'>
+                <view class='flex_between flex_items'>
+                    <view class='f32 c3'>华人团队</view>
+                    <view class='f24 c9'>39分钟前</view>
+                </view>
+                <view class='f24 c9 mt20'>人生是一场旅行，在乎的不是目的地，是沿途的风景以及看风景的心情。</view>
+            </view>
+        </view>
+        <view class='common-item flex_start'>
+            <image class='flex_shrink' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+            <view class='flex1'>
+                <view class='flex_between flex_items'>
+                    <view class='f32 c3'>华人团队</view>
+                    <view class='f24 c9'>39分钟前</view>
+                </view>
+                <view class='f24 c9 mt20'>人生是一场旅行，在乎的不是目的地，是沿途的风景以及看风景的心情。</view>
+            </view>
+        </view>
+    </view>
+
+    <!-- 底部悬浮 -->
+    <view class='footer-spacing'></view>
+    <view class='detail-footer-box flex_start flex_items'>
+        <image class='left-icon flex_shrink' src='/images/left_icon.png'></image>
+        <input type='text' placeholder='说点什么......' />
+        <view class='footer-right flex_start flex_items'>
+            <view class='common-box'>
+                <image src='/images/detail_common_icon.png'></image>
+                <view>12</view>
+            </view>
+            <image src='/images/detail_praise_icon.png'></image>
+            <image src='/images/collect_icon.png'></image>
+            <image src='/images/share_icon.png'></image>
+        </view>
+    </view>
+</view>
+
+
+<view class='tankuang {{reward_tk}}'></view>
+<view class='reward-modal-content {{reward_tk}}'>
+    <view class='f32 c3 txt_center'>您的帮助，是我们提供更多文章的动力！</view>
+    <view class='f32 c3 reward-box'>打赏金额<input class='reward-money' value='2.00' placeholder='请输入打赏金额' />元</view>
+        
+    <form report-submit="true" bindsubmit=''>
+        <view class='flex_end flex_items'>
+            <view class='cacal-btn' bindtap='detailEvent' data-types='close'>取消</view>
+            <button form-type='submit' class='pay-btn' hover-class='none'>立即支付</button>
+        </view>
+    </form>
+</view>
+
+

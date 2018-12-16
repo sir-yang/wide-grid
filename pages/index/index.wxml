@@ -1,0 +1,240 @@
+<view>
+    <view class='banner-box'>
+        <swiper indicator-dots='true' indicator-color='rgba(255, 255, 255, .5)' indicator-active-color='#ffffff' autoplay="true" current="0" circular="true">
+            <block wx:for="{{imgUrls}}" wx:key="">
+                <swiper-item>
+                    <image src='{{item}}' class='home-banner-img'></image>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+
+    <view class='home-input-box flex_start flex_items'>
+        <image src='/images/search_input.png'></image>
+        <input placeholder='搜索' bindfocus='homeEvent' data-types='search' />
+    </view>
+    <view class='input-spacing'></view>
+
+    <!-- 今日贡献榜 -->
+    <view class='leaderboard-box'>
+        <view class='home-tit-box flex_between flex_items'>
+            <view class='tit-lf'>今日贡献榜</view>
+            <view class='tit-rt'>查看全部</view>
+        </view>
+        <view class='rank-head-box mb30 flex_center items_end'>
+            <view class='lf-box'>
+                <view class='img-box pos'>
+                    <image class='head' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+                    <view class='label'>3</view>
+                </view>
+                <view class='name'>知识...洋</view>
+                <view class='val'>61贡献</view>
+            </view>
+            <view class='center-box pos'>
+                <image class='rank-by' src='/images/rank_by.png'></image>
+                <view class='img-box pos'>
+                    <image class='rank-icon' src='/images/rank_one_icon.png'></image>
+                    <image class='head' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+                    <view class='label'>1</view>
+                </view>
+                <view class='name'>知识...洋</view>
+                <view class='val'>61贡献</view>
+            </view>
+            <view class='rt-box'>
+                <view class='img-box pos'>
+                    <image class='head' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+                    <view class='label'>2</view>
+                </view>
+                <view class='name'>知识...洋</view>
+                <view class='val'>61贡献</view>
+            </view>
+        </view>
+        <view class='rank_text'>感恩您的支持！我们纯利润的77%的将用于、捐给对地球及人类有益的公益慈善事业</view>
+    </view>
+
+    <!-- 文章推荐 -->
+    <view class='article-recommend bgfff plr30 bte9s'>
+        <view class='home-tit-box flex_between flex_items'>
+            <view class='tit-lf'>文章推荐</view>
+            <view class='tit-rt'>查看全部</view>
+        </view>
+        <view class='recommend-box flex_around'>
+            <view class='recommend-item'>
+                <image src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+                <view class='mt20 f32 c3 clamp2'>常识很少会把我们引入...</view>
+            </view>
+            <view class='recommend-item'>
+                <image src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+                <view class='mt20 f32 c3 clamp2'>常识很少会把我们引入常识很少会把我们引入...</view>
+            </view>
+            <view class='recommend-item'>
+                <image src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+                <view class='mt20 f32 c3 clamp2'>常识很少会把我们引入...</view>
+            </view>
+        </view>
+    </view>
+
+    <!-- 专栏推荐 -->
+    <view class='column-recommend bgfff bte9s'>
+        <view class='home-tit-box plr30 flex_between flex_items'>
+            <view class='tit-lf'>专栏推荐</view>
+            <view class='tit-rt'>查看全部</view>
+        </view>
+        <view class='column-item_box'>
+            <view class='column-item'>
+                <image src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+                <view class='column-item-text clamp1'>路就在远方</view>
+            </view>
+            <view class='column-item'>
+                <image src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+                <view class='column-item-text clamp1'>路就在远方</view>
+            </view>
+            <view class='column-item'>
+                <image src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+                <view class='column-item-text clamp1'>路就在远方</view>
+            </view>
+        </view>
+    </view>
+
+    <!-- 冥想专区 -->
+    <view class='meditation-area bgfff bte9s'>
+        <view class='home-tit-box plr30 flex_between flex_items'>
+            <view class='tit-lf'>冥想专区</view>
+            <view class='tit-rt'>查看全部</view>
+        </view>
+
+        <view class='meditation-list'>
+            <view class='list-item flex_start flex_items'>
+                <image class='mx-icon flex_shrink' src='/images/home_mx_icon.png'></image>
+                <view class='flex1'>
+                    <view class='f32 c3'>冥想入门</view>
+                    <view class='f24 c9 mt5'>每天仅需10分钟，学习改变人生的冥想体系</view>
+                </view>
+                <image class='right-icon flex_shrink' src='/images/right_icon.png'></image>
+            </view>
+            <view class='list-item flex_start flex_items'>
+                <image class='mx-icon flex_shrink' src='/images/home_mx_icon.png'></image>
+                <view class='flex1'>
+                    <view class='f32 c3'>日常经典冥想</view>
+                    <view class='f24 c9 mt5'>最经典的日常冥想导语</view>
+                </view>
+                <image class='right-icon flex_shrink' src='/images/right_icon.png'></image>
+            </view>
+            <view class='list-item flex_start flex_items'>
+                <image class='mx-icon flex_shrink' src='/images/home_mx_icon.png'></image>
+                <view class='flex1'>
+                    <view class='f32 c3'>冥想入门</view>
+                    <view class='f24 c9 mt5'>每天仅需10分钟，学习改变人生的冥想体系</view>
+                </view>
+                <image class='right-icon flex_shrink' src='/images/right_icon.png'></image>
+            </view>
+            <view class='list-item flex_start flex_items'>
+                <image class='mx-icon flex_shrink' src='/images/home_mx_icon.png'></image>
+                <view class='flex1'>
+                    <view class='f32 c3'>日常经典冥想</view>
+                    <view class='f24 c9 mt5'>最经典的日常冥想导语</view>
+                </view>
+                <image class='right-icon flex_shrink' src='/images/right_icon.png'></image>
+            </view>
+        </view>
+    </view>
+
+    <!-- 最新发布 -->
+    <view class='newest-publish bgfff plr30'>
+        <view class='home-tit-box flex_between flex_items'>
+            <view class='tit-lf'>最新发布</view>
+            <view class='tit-rt'>查看全部</view>
+        </view>
+
+        <view class='publish-list'>
+            <view class='list-item flex_start'>
+                <view class='flex1'>
+                    <view class='f32 c3 clamp2'>粮农组织呼吁农业活动中慎用抗生素...</view>
+                    <view class='f24 c9 mt10 clamp2'>“世界提高抗生素认识周”刚刚过去。联合国粮农组织近日表示，农民可以...</view>
+                    <view class='flex_start mt10'>
+                        <view class='flex_start flex_items'>
+                            <image class='count-icon' src='/images/praise_icon.png'></image>
+                            <text class='f24 c9'>86</text>
+                        </view>
+                        <view class='flex_start flex_items ml30'>
+                            <image class='count-icon' src='/images/common_icon.png'></image>
+                            <text class='f24 c9'>6</text>
+                        </view>
+                    </view>
+                </view>
+                <image class='publish-img flex_shrink' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+            </view>
+            <view class='list-item flex_start'>
+                <view class='flex1'>
+                    <view class='f32 c3 clamp2'>粮农组织呼吁农业活动中慎用抗生素...</view>
+                    <view class='f24 c9 mt10 clamp2'>“世界提高抗生素认识周”刚刚过去。联合国粮农组织近日表示，农民可以...</view>
+                    <view class='flex_start mt10'>
+                        <view class='flex_start flex_items'>
+                            <image class='count-icon' src='/images/praise_icon.png'></image>
+                            <text class='f24 c9'>86</text>
+                        </view>
+                        <view class='flex_start flex_items ml30'>
+                            <image class='count-icon' src='/images/common_icon.png'></image>
+                            <text class='f24 c9'>6</text>
+                        </view>
+                    </view>
+                </view>
+                <image class='publish-img flex_shrink' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+            </view>
+            <view class='list-item flex_start'>
+                <view class='flex1'>
+                    <view class='f32 c3 clamp2'>粮农组织呼吁农业活动中慎用抗生素...</view>
+                    <view class='f24 c9 mt10 clamp2'>“世界提高抗生素认识周”刚刚过去。联合国粮农组织近日表示，农民可以...</view>
+                    <view class='flex_start mt10'>
+                        <view class='flex_start flex_items'>
+                            <image class='count-icon' src='/images/praise_icon.png'></image>
+                            <text class='f24 c9'>86</text>
+                        </view>
+                        <view class='flex_start flex_items ml30'>
+                            <image class='count-icon' src='/images/common_icon.png'></image>
+                            <text class='f24 c9'>6</text>
+                        </view>
+                    </view>
+                </view>
+                <image class='publish-img flex_shrink' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+            </view>
+        </view>
+    </view>
+
+    <!-- 今日积分排行榜 -->
+    <view class='leaderboard-box mt20'>
+        <view class='home-tit-box flex_between flex_items'>
+            <view class='tit-lf'>今日积分排行榜</view>
+            <view class='tit-rt'>查看全部</view>
+        </view>
+        <view class='rank-head-box mb30 flex_center items_end'>
+            <view class='lf-box'>
+                <view class='img-box pos'>
+                    <image class='head' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+                    <view class='label'>3</view>
+                </view>
+                <view class='name'>知识...洋</view>
+                <view class='val'>61贡献</view>
+            </view>
+            <view class='center-box pos'>
+                <image class='rank-by' src='/images/rank_by.png'></image>
+                <view class='img-box pos'>
+                    <image class='rank-icon' src='/images/rank_one_icon.png'></image>
+                    <image class='head' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+                    <view class='label'>1</view>
+                </view>
+                <view class='name'>知识...洋</view>
+                <view class='val'>61贡献</view>
+            </view>
+            <view class='rt-box'>
+                <view class='img-box pos'>
+                    <image class='head' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+                    <view class='label'>2</view>
+                </view>
+                <view class='name'>知识...洋</view>
+                <view class='val'>61贡献</view>
+            </view>
+        </view>
+    </view>
+
+</view>
