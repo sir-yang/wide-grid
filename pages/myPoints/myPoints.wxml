@@ -1,0 +1,46 @@
+
+<view>
+    <view class='bgfff'>
+        <view class='points-banner'>
+            <image class='points-banner-bg' src='/images/points_bg.png'></image>
+            <view class='f32 cf bold'>我的积分</view>
+            <view class='points-num mt20'>120</view>
+            <view class='member-box flex_start flex_items'>
+                <image class='member_icon' src='/images/member_icon.png'></image>
+                <view>钻石会员</view>
+            </view>
+            <view class='points-record flex_start flex_items' bindtap='pointRecord'>
+                <view class='f20 cf'>积分记录</view>
+                <image src='/images/right_mini_icon.png'></image>
+            </view>
+        </view>
+
+        <view>
+            <view class='title-box flex_between flex_items'>
+                <view>如何获得积分？</view>
+                <image src='/images/down_icon.png'></image>
+            </view>
+            <view class='desc-box'>
+                <text>1、通过阅读、联系、评论、分享可获得积分；
+    2、完成任务可获得相应积分；</text>
+            </view>
+        </view>
+    </view>
+
+    <view class='points_2_content'>
+        <view class='title-box flex_between flex_items'>
+            <view>如何获得积分？</view>
+            <image src='/images/down_icon.png'></image>
+        </view>
+        <view class='desc-box'>
+            <text>1、进阶文章阅读的开启；
+2、进入排行榜绑定；
+3、更多用处，即将上线，敬请期待！</text>
+        </view>
+        
+        <view class='unlock-points-btn'>
+            <view>600积分解锁中级文章</view>
+            <view>1200积分解锁中级文章</view>
+        </view>
+    </view>
+</view>

@@ -7,7 +7,18 @@
         "pages/articleDetail/articleDetail",
         "pages/exerciseDetail/exerciseDetail",
         "pages/classify/classify",
-        "pages/columnDetail/columnDetail"
+        "pages/columnDetail/columnDetail",
+        "pages/exercise/exercise",
+        "pages/my/my",
+        "pages/editInfo/editInfo",
+        "pages/subscription/subscription",
+        "pages/myTask/myTask",
+        "pages/myCollect/myCollect",
+        "pages/myPoints/myPoints",
+        "pages/pointsRecord/pointsRecord",
+        "pages/about/about",
+        "pages/readRecord/readRecord",
+        "pages/userDetail/userDetail"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -34,13 +45,13 @@
                 "selectedIconPath": "/images/tabbar/tabbar_class_selected.png"
             },
             {
-                "pagePath": "pages/index/index",
+                "pagePath": "pages/exercise/exercise",
                 "text": "练习",
                 "iconPath": "/images/tabbar/tabbar_exercise.png",
                 "selectedIconPath": "/images/tabbar/tabbar_exercise_selected.png"
             },
             {
-                "pagePath": "pages/index/index",
+                "pagePath": "pages/my/my",
                 "text": "我的",
                 "iconPath": "/images/tabbar/tabbar_me.png",
                 "selectedIconPath": "/images/tabbar/tabbar_me_selected.png"

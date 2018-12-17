@@ -1,0 +1,39 @@
+<view>
+    <view class='collect-list-box'>
+        <view class='list-item flex_start'>
+            <view class='flex1'>
+                <view class='f32 c3 clamp2'>粮农组织呼吁农业活动中慎用抗生素...<text class='f32 c6 ml20'>(10积分)</text></view>
+                <view class='f24 c9 mt10 clamp2'>“世界提高抗生素认识周”刚刚过去。联合国粮农组织近日表示，农民可以...</view>
+                <view class='flex_start mt10'>
+                    <view class='flex_start flex_items'>
+                        <image class='count-icon' src='/images/praise_icon.png'></image>
+                        <text class='f24 c9'>86</text>
+                    </view>
+                    <view class='flex_start flex_items ml30'>
+                        <image class='count-icon' src='/images/common_icon.png'></image>
+                        <text class='f24 c9'>6</text>
+                    </view>
+                </view>
+            </view>
+            <image class='publish-img flex_shrink' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+        </view>
+        
+        <view class='list-item flex_start'>
+            <view class='flex1'>
+                <view class='f32 c3 clamp2'>粮农组织呼吁农业活动中慎用抗生素...<text class='f32 c6 ml20'>(10积分)</text></view>
+                <view class='f24 c9 mt10 clamp2'>“世界提高抗生素认识周”刚刚过去。联合国粮农组织近日表示，农民可以...</view>
+                <view class='flex_start mt10'>
+                    <view class='flex_start flex_items'>
+                        <image class='count-icon' src='/images/praise_icon.png'></image>
+                        <text class='f24 c9'>86</text>
+                    </view>
+                    <view class='flex_start flex_items ml30'>
+                        <image class='count-icon' src='/images/common_icon.png'></image>
+                        <text class='f24 c9'>6</text>
+                    </view>
+                </view>
+            </view>
+            <image class='publish-img flex_shrink' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+        </view>
+    </view>
+</view>

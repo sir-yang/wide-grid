@@ -1,0 +1,25 @@
+
+Page {
+    background: #f9f9f9;
+}
+
+.point-record-list {
+    padding: 0 30rpx;
+    background: #fff;
+    border-top: 1px solid #e9e9e9;
+}
+
+.point-record-item {
+    padding: 30rpx 0;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.add {
+    font-size: 36rpx;
+    color: #3bb18f;
+}
+
+.less {
+    font-size: 36rpx;
+    color: #333;
+}

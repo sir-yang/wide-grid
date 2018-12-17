@@ -1,0 +1,45 @@
+
+Page {
+    background: #f9f9f9;
+}
+.top-bg-box {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 300rpx;
+    background: #3bb18f;
+    z-index: 1;
+}
+
+.about-content-box {
+    position: relative;
+    z-index: 2;
+    width: 534rpx;
+    padding: 50rpx 50rpx 60rpx;
+    background: #fff;
+    margin: 145rpx auto 0;
+    -webkit-border-radius: 10rpx;
+    -moz-border-radius: 10rpx;
+    -o-border-radius: 10rpx;
+    border-radius: 10rpx;
+}
+
+.about-content-box .title {
+    margin-bottom: 50rpx;
+    font-size: 38rpx;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+
+.about-content-box .row-box {
+    font-size: 28rpx;
+    color: #666;
+    line-height: 50rpx;
+}
+.eqcode > image {
+    display: block;
+    width: 310rpx;
+    height: 310rpx;
+    margin: 50rpx auto 30rpx;
+}

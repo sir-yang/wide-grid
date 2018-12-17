@@ -1,0 +1,44 @@
+<view class='pt10'>
+    <view class='exercise-type-box'>
+        <image class='exercise-img' src='/images/exercise_1.png'></image>
+        <view class='type-list-box'>
+            <view class='exercise-item flex_start flex_items'>
+                <image class='left_icon flex_shrink' src='/images/home_mx_icon.png'></image>
+                <view class='flex1'>
+                    <view class='f32 c3'>冥想入门</view>
+                    <view class='f24 c9 mt5'>每天仅需10分钟，学习改变人生的冥想体系</view>
+                </view>
+                <image class='right-icon flex_shrink' src='/images/right_icon.png'></image>
+            </view>
+            <view class='exercise-item flex_start flex_items'>
+                <image class='left_icon flex_shrink' src='/images/home_mx_icon.png'></image>
+                <view class='flex1'>
+                    <view class='f32 c3'>冥想入门</view>
+                    <view class='f24 c9 mt5'>每天仅需10分钟，学习改变人生的冥想体系</view>
+                </view>
+                <image class='right-icon flex_shrink' src='/images/right_icon.png'></image>
+            </view>
+        </view>
+    </view>
+    <view class='exercise-type-box'>
+        <image class='exercise-img' src='/images/exercise_2.png'></image>
+        <view class='type-list-box'>
+            <view class='exercise-item flex_start flex_items'>
+                <image class='left_icon flex_shrink' src='/images/home_mx_icon.png'></image>
+                <view class='flex1'>
+                    <view class='f32 c3'>冥想入门</view>
+                    <view class='f24 c9 mt5'>每天仅需10分钟，学习改变人生的冥想体系</view>
+                </view>
+                <image class='right-icon flex_shrink' src='/images/right_icon.png'></image>
+            </view>
+            <view class='exercise-item flex_start flex_items'>
+                <image class='left_icon flex_shrink' src='/images/home_mx_icon.png'></image>
+                <view class='flex1'>
+                    <view class='f32 c3'>冥想入门</view>
+                    <view class='f24 c9 mt5'>每天仅需10分钟，学习改变人生的冥想体系</view>
+                </view>
+                <image class='right-icon flex_shrink' src='/images/right_icon.png'></image>
+            </view>
+        </view>
+    </view>
+</view>

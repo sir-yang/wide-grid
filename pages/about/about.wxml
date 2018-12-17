@@ -1,0 +1,12 @@
+
+<view>
+    <view class='top-bg-box'></view>
+    <view class='about-content-box'>
+        <view class='title'>关于我们的标题</view>
+        <view class='row-box'>决定命运的并不是天上掉下来的一个大大的机会，而是每一分钟里你做的一个微小的选择。所有的差别就只在那一分钟里。</view>
+        <view class='eqcode'>
+            <image src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+            <view class='f28 c6 txt_center'>扫码添加客服</view>
+        </view>
+    </view>
+</view>

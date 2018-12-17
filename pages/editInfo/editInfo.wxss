@@ -1,0 +1,29 @@
+Page {
+    background: #f9f9f9;
+}
+.edit-box {
+    background: #fff;
+    padding: 0 30rpx;
+}
+.edit-box > view.flex_between {
+    padding: 30rpx 0;
+    border-bottom: 1px solid #e9e9e9;
+}
+.edit-right .head-icon {
+    display: block;
+    width: 100rpx;
+    height: 100rpx;
+    margin-right: 10rpx;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+.edit-right .right-icon {
+    display: block;
+    width: 13rpx;
+    height: 25rpx;
+    margin-left: 20rpx;
+}
+
+

@@ -1,0 +1,65 @@
+
+Page {
+    background: #f9f9f9;
+}
+
+.content_1_box {
+    padding: 0 30rpx;
+    background: #fff;
+}
+.content_1_box .title {
+    line-height: 88rpx;
+    font-size: 32rpx;
+    color: #000;
+    font-weight: bold;
+}
+.tesk-item-box {
+    height: 88rpx;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.tesk-item-box:last-child {
+    border-bottom: none;
+}
+
+.tesk-item-box .tesk-icon {
+    display: block;
+    width: 48rpx;
+    height: 48rpx;
+    margin-right: 20rpx;
+}
+
+.tesk-item-box .left-box > view {
+    font-size: 32rpx;
+    color: #000;
+}
+
+.tesk-item-box .receive-points-btn {
+    width: 120rpx;
+    height: 42rpx;
+    text-align: center;
+    line-height: 42rpx;
+    -webkit-border-radius: 21rpx;
+    -moz-border-radius: 21rpx;
+    -o-border-radius: 21rpx;
+    border-radius: 21rpx;
+    background:-webkit-linear-gradient(58deg,rgba(12,181,132,0.94),rgba(25,215,160,0.94));
+    background:-moz-linear-gradient(58deg,rgba(12,181,132,0.94),rgba(25,215,160,0.94));
+    background:-o-linear-gradient(58deg,rgba(12,181,132,0.94),rgba(25,215,160,0.94));
+    background:linear-gradient(58deg,rgba(12,181,132,0.94),rgba(25,215,160,0.94));
+    -webkit-box-shadow: 0 0 4px 1px rgba(25,215,160,.3);
+    -moz-box-shadow: 0 0 4px 1px rgba(25,215,160,.3);
+    -o-box-shadow: 0 0 4px 1px rgba(25,215,160,.3);
+    box-shadow: 0 0 4px 1px rgba(25,215,160,.3);
+    font-size: 24rpx;
+    color: #fff;
+}
+
+.content_2_box {
+    margin-top: 30rpx;
+    padding: 0 30rpx;
+    background: #fff;
+}
+.content_2_box .title {
+    line-height: 88rpx;
+}

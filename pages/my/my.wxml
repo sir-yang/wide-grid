@@ -1,0 +1,71 @@
+<view>
+    <view class='my-banner-box'>
+        <image class='my_banner_bg' src='/images/my_banner_bg.png'></image>
+        <view class='user-box flex_center flex_column flex_items'>
+            <image src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+            <view class='f32 cf mt20'>周生生</view>
+        </view>
+
+        <view class='edit-box flex_start flex_items' catchtap='mineEvent' data-types='jump' data-pages='edit'>
+            <image src='/images/edit_icon.png'></image>
+            <view class='f20 cf'>编辑资料</view>
+        </view>
+    
+        <view class='flex_center flex_items'>
+            <view class='integral-box flex_start flex_items'>
+                <image src='/images/integral_crown_icon.png'></image>
+                <view>120积分</view>
+            </view>
+            <view class='member-box flex_start flex_items'>
+                <image src='/images/member_icon.png'></image>
+                <view>钻石会员</view>
+            </view>
+        </view>
+    </view>
+
+    <view class='content_1_box'>
+        <view class='rank-integral-box flex_start flex_items'>
+            <view class='flex1'>
+                <text class='mr30'>昨日排名</text>
+                <text>66名</text>
+            </view>
+            <view class='flex1'>
+                <text class='mr30'>昨日积分</text>
+                <text>106积分</text>
+            </view>
+        </view>
+        <view class='tab-box flex_start flex_items'>
+            <view>
+                <image src='/images/subscribe_icon.png'></image>
+                <view>我的订阅</view>
+            </view>
+            <view>
+                <image src='/images/task_icon.png'></image>
+                <view>我的任务</view>
+            </view>
+            <view>
+                <image src='/images/integral_icon.png'></image>
+                <view>我的积分</view>
+            </view>
+        </view>
+    </view>
+
+    <view class='content_2_box'>
+        <view class='flex_between flex_items'>
+            <view>阅读记录</view>
+            <image src='/images/right_icon.png'></image>
+        </view>
+        <view class='flex_between flex_items'>
+            <view>收藏</view>
+            <image src='/images/right_icon.png'></image>
+        </view>
+        <view class='flex_between flex_items'>
+            <view>排行榜</view>
+            <image src='/images/right_icon.png'></image>
+        </view>
+        <view class='flex_between flex_items'>
+            <view>关于我们</view>
+            <image src='/images/right_icon.png'></image>
+        </view>
+    </view>
+</view>

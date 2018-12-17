@@ -1,0 +1,32 @@
+
+<view class='edit-box'>
+    <view class='flex_between flex_items'>
+        <view class='f28 c3'>头像</view>
+        <view class='edit-right flex_start flex_items'>
+            <image class='head-icon' src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+            <image class='right-icon' src='/images/right_icon.png'></image>
+        </view>
+    </view>
+    <view class='flex_between flex_items'>
+        <view class='f28 c3'>真实姓名</view>
+        <view class='edit-right flex_start flex_items'>
+            <view class='f28 c3'>周星星</view>
+            <image class='right-icon' src='/images/right_icon.png'></image>
+        </view>
+    </view>
+    <view class='flex_between flex_items'>
+        <view class='f28 c3'>性别</view>
+        <view class='edit-right flex_start flex_items'>
+            <view class='f28 c3'>男</view>
+            <image class='right-icon' src='/images/right_icon.png'></image>
+        </view>
+    </view>
+    <view class='flex_between flex_items'>
+        <view class='f28 c3'>手机号</view>
+        <view class='edit-right flex_start flex_items'>
+            <view class='f28 c3'>18628805420</view>
+            <image class='right-icon' src='/images/right_icon.png'></image>
+        </view>
+    </view>
+
+</view>

@@ -1,0 +1,40 @@
+<view>
+    <view class='content_1_box'>
+        <view class='title'>可得积分任务</view>
+        <view class='tesk-item-box flex_between flex_items'>
+            <view class='left-box flex_start flex_items'>
+                <image class='tesk-icon' src='/images/tesk_icon_1.png'></image>
+                <view>阅读文章</view>
+            </view>
+            <view class='receive-points-btn'>5积分</view>
+        </view>
+        <view class='tesk-item-box flex_between flex_items'>
+            <view class='left-box flex_start flex_items'>
+                <image class='tesk-icon' src='/images/tesk_icon_2.png'></image>
+                <view>冥想</view>
+            </view>
+            <view class='receive-points-btn'>5积分</view>
+        </view>
+        <view class='tesk-item-box flex_between flex_items'>
+            <view class='left-box flex_start flex_items'>
+                <image class='tesk-icon' src='/images/tesk_icon_3.png'></image>
+                <view>分享好文章</view>
+            </view>
+            <view class='receive-points-btn'>10积分</view>
+        </view>
+    </view>
+
+    <view class='content_2_box'>
+        <view class='title'>
+            <text class='f32 c0 bold'>每周任务</text>
+            <text class='f24 c6 ml10'>(每周日重置)</text>
+        </view>
+        <view class='tesk-item-box flex_between flex_items'>
+            <view class='left-box flex_start flex_items'>
+                <image class='tesk-icon' src='/images/tesk_icon_4.png'></image>
+                <view>分享好文章</view>
+            </view>
+            <view class='receive-points-btn'>10积分</view>
+        </view>
+    </view>
+</view>

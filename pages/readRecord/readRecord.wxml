@@ -1,0 +1,22 @@
+<view class='read-list-box flex_warp'>
+    <view class='read-item'>
+        <image src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+        <view class='f32 c3 clamp2'>常识很少会把我们引入...</view>
+    </view>
+    <view class='read-item'>
+        <image src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+        <view class='f32 c3 clamp2'>常识很少会把我们引入...</view>
+    </view>
+    <view class='read-item'>
+        <image src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+        <view class='f32 c3 clamp2'>常识很少会把我们引入...</view>
+    </view>
+    <view class='read-item'>
+        <image src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+        <view class='f32 c3 clamp2'>常识很少会把我们引入...</view>
+    </view>
+    <view class='read-item'>
+        <image src='http://img.my.csdn.net/uploads/201407/26/1406383165_7197.jpg'></image>
+        <view class='f32 c3 clamp2'>常识很少会把我们引入...</view>
+    </view>
+</view>

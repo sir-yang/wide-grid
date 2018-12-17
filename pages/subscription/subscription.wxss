@@ -1,0 +1,44 @@
+Page {
+    background: #f9f9f9;
+}
+
+.subscription-item-box {
+    padding: 25rpx;
+    margin-top: 30rpx;
+    background: #fff;
+    -webkit-border-radius: 10rpx;
+    -moz-border-radius: 10rpx;
+    -o-border-radius: 10rpx;
+    border-radius: 10rpx;
+}
+.subscription-item-box > image {
+    display: block;
+    width: 100%;
+    height: 410rpx;
+    margin-bottom: 30rpx;
+    -webkit-border-radius: 10rpx;
+    -moz-border-radius: 10rpx;
+    -o-border-radius: 10rpx;
+    border-radius: 10rpx;
+}
+.cancel-btn {
+    width: 146rpx;
+    height: 52rpx;
+    margin-left: 40rpx;
+    line-height: 52rpx;
+    text-align: center;
+    font-size: 24rpx;
+    color: #fff;
+    background:-webkit-linear-gradient(-4deg,rgba(61,208,166,0.94),rgba(25,215,160,0.94));
+    background:-moz-linear-gradient(-4deg,rgba(61,208,166,0.94),rgba(25,215,160,0.94));
+    background:-o-linear-gradient(-4deg,rgba(61,208,166,0.94),rgba(25,215,160,0.94));
+    background:linear-gradient(-4deg,rgba(61,208,166,0.94),rgba(25,215,160,0.94));
+    -webkit-border-radius: 26rpx;
+    -moz-border-radius: 26rpx;
+    -o-border-radius: 26rpx;
+    border-radius: 26rpx;
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(25,215,160, .3);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(25,215,160, .3);
+    -o-box-shadow: 0px 2px 4px 0px rgba(25,215,160, .3);
+    box-shadow: 0px 2px 4px 0px rgba(25,215,160, .3);
+}
